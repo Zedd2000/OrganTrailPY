@@ -6,6 +6,8 @@ import core
 
 health = [100,100,100,100,100]
 
+#clements - broken arm - dysentary - Bitten
+
 pStatus = {
         "head": ["","","","",""],
         "torso": ["","","","",""],
@@ -38,8 +40,28 @@ def hBar(names,health):
         bar += "|"
         print(bar)
 
+def clemFace():
+    core.clear()
+    print("""                   .,'..   .
+                  .;clll:,;:,'.
+               ..,loodddddoddoc;'
+               ':lodddkOOxdxdddo:..
+               .,lddodk000OOOkkdc,..
+               .:xxxdx000OOOOOOOx:.
+            ...,lxkxdk000 ddxk kd,
+     ...'''',,,;cdxddxO000kkOOxxd'
+    .'.......',,:okxddk00000OOOOd.
+   ......'.. .',;cxxddxkkk___kkxc.
+  .'.......'. .,,;ldddddkO00Okl'.
+  .... .......,,...;llolloddo;.
+    .'......':l:......,:cc;,,,.
+  ..',,,'..  .cl,.....,oKKo,,od'
+..,,,,,'.     ,ol,. ..,:odc,,c:...
+',,,,,,.      .loc.   .,,,,','.....     \n\n""")
 
-core.clear()
+
+clemFace()
+
 core.SPrint(0.025,"""Well then, it looks like
 I just saved your bacon.
 
@@ -57,6 +79,8 @@ partner?\n\n""")
 
 leader = input("Your Name : ")
 
+clemFace()
+
 core.SPrint(0.025,"""\nThe pleasure's all mine
 """ + leader + """\n
 Listen. Even with the two
@@ -70,6 +94,27 @@ could count on in a
 pinch?\n\n""")
 
 pNames = [leader,input("Party Mamber 1 : "),input("Party Mamber 2 : "),input("Party Mamber 3 : "),input("Party Mamber 4 : ")]
-health = [100,100,100,100,100]
+
+clemFace()
+
+core.SPrint(0.025,"""There's a good chance if
+they're still alive they
+will be at the shelter
+setup in D.C. If they
+have any sense that is.
+
+We're going to need a way
+to get around. I saw an
+old station wagon a few
+blocks back.
+
+those things might not be
+very reliable but you'd
+be surprised how roomy
+they are.
+
+Anyway, lets get moving.""")
+
+input("- Press Enter to continue -")
 
 hBar(pNames,health)
