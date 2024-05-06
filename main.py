@@ -93,7 +93,7 @@ Do you know anyone we
 could count on in a
 pinch?\n\n""")
 
-pNames = [leader,input("Party Mamber 1 : "),input("Party Mamber 2 : "),input("Party Mamber 3 : "),input("Party Mamber 4 : ")]
+pNames = [leader,input("Party Member 1 : "),input("Party Member 2 : "),input("Party Member 3 : "),input("Party Member 4 : ")]
 
 clemFace()
 
