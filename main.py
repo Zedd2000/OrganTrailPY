@@ -19,12 +19,12 @@ pStatus = {
         "infected": [False,False,False,False,False]
         }
 cond = {            ## Possible health conditions ##
-        "head": ["Healthy","","",""],                                                            ## 0 - Possible head injuries
+        "head": ["Healthy","One-eyed","Bleeding","Decapitated"],                                                            ## 0 - Possible head injuries
         "torso": ["Healthy","Bruised","Lacerated","Broken Ribs","Broken Back"],                  ## 1 - Possible torso injuries
         "arm": ["Healthy","Bruised","Lacerated","Broken","Amputated"],                           ## 2 - Possible arm injuries
         "leg": ["Healthy","Bruised","Lacerated","Broken","Amputated"],                           ## 3 - Possible leg injuries
         "status": ["Stable","Critical","Unconcious"],                                            ## 4 - Possible overall health conditions
-        "disease": ["Healthy","Cholera","Dysentery","Typhoid","Covid-19","Bone-exploditis"]      ## 5 - Possible diseases
+        "disease": ["Healthy","fever","Cholera","Dysentery","Typhoid","Covid-19","Bone-exploditis","Infected"]      ## 5 - Possible diseases
         }
 
 def hBar(names,health):
