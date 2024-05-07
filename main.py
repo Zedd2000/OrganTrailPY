@@ -4,9 +4,11 @@ import time
 import threading
 import core
 
-health = [100,100,100,100,100]
-
 #clements - broken arm - dysentary - Bitten
+
+distance = 0
+
+health = [100,100,100,100,100]
 
 pStatus = {
         "head": ["","","","",""],
