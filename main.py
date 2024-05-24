@@ -119,4 +119,7 @@ Anyway, lets get moving.""")
 
 input("- Press Enter to continue -")
 
-hBar(pNames,health)
+introNames = [leader,"Clem."]
+introHealth = [100,100]
+
+hBar(introNames,introHealth)
